@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background: url('images/IMG_0232.JPG');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 100vh;
+   font-family: 'Pixelify Sans';
+   text-align: center;
+   padding: 30px;
+}
+
+
+/* Header */
+.header-container h1{
+    color: #ffcc00;
+    font-size: 76px;
+    margin-bottom: 24px;
+}
+
+/* Search box */
+.search-box{
+    margin-top: 30px;
+}
+
+input#pokemon-input{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    font-size: 16px;
+}
+
+button#search-btn{
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #9ee8ff;
+    margin-left: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button#search-btn:hover{
+    background-color: #1bafdd;
+}
+
+/* Pokemon card */
+#pokemon-card{
+    margin-top: 45px;
+    padding: 15px 80px;
+    border-radius: 20px;
+    background-color: #f2c496;
+    box-shadow: 20px 20px 5px rgba(64, 37, 11, 0.51);
+    display: inline-block;
+
+}
+
+.pokemon-img{
+    width: 200px;
+    margin: 20px 0;
+}
+
+.badge{
+    display: inline-block;
+    background: #eee;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+/* Pokemon card */
+#play-music{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    
+}
